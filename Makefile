@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: bgoncalv <bgoncalv@student.42lausanne.ch>  +#+  +:+       +#+         #
+#    By: bgoncalv <bgoncalv@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/03 19:39:23 by bgoncalv          #+#    #+#              #
-#    Updated: 2022/01/30 18:22:59 by bgoncalv         ###   ########.fr        #
+#    Updated: 2022/02/01 13:35:00 by bgoncalv         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= microshell
+NAME		= minishell
 
 CC			= gcc
 
@@ -56,7 +56,7 @@ re:			clean $(NAME)
 
 clean:
 			@$(RM) $(OBJS)
-			@printf "$(_PURPLE)$(NAME)		deleted$(_END)\n"
+			@printf "$(_PURPLE)Minishell Objs	deleted$(_END)\n"
 
 fclean:		clean
 			@$(MAKE) fclean -C ./libft

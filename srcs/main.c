@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bgoncalv <bgoncalv@student.42lausanne.ch>  +#+  +:+       +#+        */
+/*   By: bgoncalv <bgoncalv@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 20:11:00 by bgoncalv          #+#    #+#             */
-/*   Updated: 2022/01/31 01:16:48 by bgoncalv         ###   ########.fr       */
+/*   Updated: 2022/02/01 13:17:27 by bgoncalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 		s = strerror(i);
 		printf("%i : %s\n", i, s);
 	}
-	s = getenv();
+	s = getenv("TERM");
 	printf("ENV :\n%s\n", s);
 	mnsh_init(&mnsh);
 	while (42)
