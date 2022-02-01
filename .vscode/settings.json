@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"micro_shell.h": "c",
+		"stdio.h": "c",
+		"unistd.h": "c"
+	}
+}

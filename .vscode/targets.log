@@ -1,0 +1,424 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun Jan 30 18:23:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 19)
+INCLUDES = -I includes/ -I libft/includes/
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/bruno1388/Desktop/tmp/micro_shell
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 30)
+RM = rm -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 17)
+CFLAGS = -Wall -Wextra -Werror
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+ 
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+P9K_SSH = 0
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/pm/n6yvknfj3jj8392fnmmt50yr0000gn/T/vscode-ipc-c781ae17-5bfd-4458-995a-d2e8135f28db.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+# makefile (from `Makefile', line 35)
+_END = \e[0m
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.6kvBtTHnMb/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.NRey1rGWHc/org.xquartz:0
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `Makefile', line 28)
+OBJS = $(SRCS:.c=.o)
+# environment
+PWD = /Users/bruno1388/Desktop/tmp/micro_shell
+# makefile (from `Makefile', line 33)
+_PURPLE = \e[35m
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 32)
+_BLUE = \e[34m
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/bruno1388
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# makefile (from `Makefile', line 34)
+_CYAN = \e[36m
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/bruno1388/Library/Application Support/Code/CachedData/7f6ab5485bbc008386c4386d08766667e155244e
+# environment
+LOGNAME = bruno1388
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /Users/bruno1388/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 23)
+SRCS = $(wildcard srcs/*.c) $(wildcard srcs/exec/*.c) $(wildcard srcs/env/*.c) $(wildcard srcs/parsing/*.c)
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 15)
+CC = gcc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = bruno1388
+# makefile
+.DEFAULT_GOAL := microshell
+# makefile (from `Makefile', line 13)
+NAME = microshell
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 21)
+LFLAGS = -L./libft -lft -lreadline
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/pm/n6yvknfj3jj8392fnmmt50yr0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/bruno1388/Library/Application Support/Code/1.60.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.824280.824286
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2667
+# variable set hash-table stats:
+# Load=80/1024=8%, Rehash=0, Collisions=7/118=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777223, inode 4929692): 9 files, no impossibilities.
+# srcs/env (device 16777223, inode 5073765): 3 files, no impossibilities.
+# srcs/exec (device 16777223, inode 5095786): 4 files, no impossibilities.
+# srcs (device 16777223, inode 4931805): 11 files, no impossibilities.
+# srcs/parsing (device 16777223, inode 5073692): 3 files, no impossibilities.
+
+# 30 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  commands to execute (from `Makefile', line 38):
+	@printf "minishell object : $(_BLUE)%-33.33s\r$(_END)" $@
+	@${CC} ${CFLAGS} $(INCLUDES) -c $< -o $@
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+srcs/exec/exec.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-29 19:16:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: microshell
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+bin:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: all re clean fclean bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parsing/parse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/env/minishell.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-30 18:22:37
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-30 18:22:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-30 18:20:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+debug: srcs/main.o srcs/micro_shell_test.o srcs/exec/exec.o srcs/env/minishell.o srcs/parsing/parse.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 48):
+	@echo "\n"
+	@$(MAKE) -C ./libft
+ 
+	@gcc -g $(CFLAGS) $(INCLUDES) $(LFLAGS) $(OBJS) -o $(NAME)
+	@printf "$(NAME)	[$(_BLUE)✓$(_END)]\n"
+	
+
+srcs/micro_shell_test.o: srcs/micro_shell_test.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `srcs/micro_shell_test'
+#  Last modified 2022-01-30 18:23:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 38):
+	@printf "minishell object : $(_BLUE)%-33.33s\r$(_END)" $@
+	@${CC} ${CFLAGS} $(INCLUDES) -c $< -o $@
+	
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 62):
+	@$(MAKE) fclean -C ./libft
+	@$(RM) $(NAME)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: clean microshell
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+microshell: srcs/main.o srcs/micro_shell_test.o srcs/exec/exec.o srcs/env/minishell.o srcs/parsing/parse.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  commands to execute (from `Makefile', line 42):
+	@echo "\n"
+	@$(MAKE) -C ./libft
+	@gcc $(CFLAGS) $(INCLUDES) $(LFLAGS) $(OBJS) -o $(NAME)
+	@printf "$(NAME)	[$(_BLUE)✓$(_END)]\n"
+	
+
+# Not a target:
+srcs/micro_shell_test.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-30 18:04:45
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+srcs/exec/exec.o: srcs/exec/exec.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `srcs/exec/exec'
+#  Last modified 2022-01-30 18:23:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 38):
+	@printf "minishell object : $(_BLUE)%-33.33s\r$(_END)" $@
+	@${CC} ${CFLAGS} $(INCLUDES) -c $< -o $@
+	
+
+srcs/env/minishell.o: srcs/env/minishell.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `srcs/env/minishell'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := srcs/env/minishell.o
+# automatic
+# % := 
+# automatic
+# * := srcs/env/minishell
+# automatic
+# + := srcs/env/minishell.c
+# automatic
+# | := 
+# automatic
+# < := srcs/env/minishell.c
+# automatic
+# ^ := srcs/env/minishell.c
+# automatic
+# ? := srcs/env/minishell.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/18=6%
+#  commands to execute (from `Makefile', line 38):
+	@printf "minishell object : $(_BLUE)%-33.33s\r$(_END)" $@
+	@${CC} ${CFLAGS} $(INCLUDES) -c $< -o $@
+	
+
+srcs/main.o: srcs/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `srcs/main'
+#  Last modified 2022-01-30 18:23:00
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 38):
+	@printf "minishell object : $(_BLUE)%-33.33s\r$(_END)" $@
+	@${CC} ${CFLAGS} $(INCLUDES) -c $< -o $@
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 58):
+	@$(RM) $(OBJS)
+	@printf "$(_PURPLE)$(NAME)		deleted$(_END)\n"
+	
+
+# files hash-table stats:
+# Load=20/1024=2%, Rehash=0, Collisions=4/64=6%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jan 30 18:23:06 2022
+
+ 

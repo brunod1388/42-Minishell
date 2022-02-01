@@ -1,0 +1,17 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/bruno1388/Desktop/tmp/micro_shell'
+printf "minishell object : \e[34m%-33.33s\r\e[0m" srcs/env/minishell.o
+gcc -Wall -Wextra -Werror -I includes/ -I libft/includes/ -c srcs/env/minishell.c -o srcs/env/minishell.o
+printf "minishell object : \e[34m%-33.33s\r\e[0m" srcs/parsing/parse.o
+gcc -Wall -Wextra -Werror -I includes/ -I libft/includes/ -c srcs/parsing/parse.c -o srcs/parsing/parse.o
+echo "\n"
+/Library/Developer/CommandLineTools/usr/bin/make -C ./libft
+ 
+make[1]: Entering directory `/Users/bruno1388/Desktop/tmp/micro_shell/libft'
+make[1]: `libft.a' is up to date.
+make[1]: Leaving directory `/Users/bruno1388/Desktop/tmp/micro_shell/libft'
+ 
+gcc -Wall -Wextra -Werror -I includes/ -I libft/includes/ -L./libft -lft -lreadline srcs/main.o srcs/micro_shell_test.o srcs/exec/exec.o srcs/env/minishell.o srcs/parsing/parse.o -o microshell
+printf "microshell	[\e[34m✓\e[0m]\n"
+make: Leaving directory `/Users/bruno1388/Desktop/tmp/micro_shell'
+ 
